@@ -96,7 +96,7 @@ function createOrder(data) {
 
 function verify_webhook(hmac, rawBody) {
   // Retrieving the key
-  const key = 'a918ea34b4d95f724245db87eaf96db11ecdfaf7a4f0b78510961a87bc230e78';
+  const key = '3f38052e9fb684815de722c28b633809fc1e11e11124c86d41794229a09f8f4c';
   /* Compare the computed HMAC digest based on the shared secret 
    * and the request contents
   */
