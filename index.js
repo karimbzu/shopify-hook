@@ -83,7 +83,7 @@ function createOrder(data) {
   }
 
   console.log('calling api')
-  request.post('http://warehouse.dpost.be/api/warehouse/apirequest/requestData', function (error, response, payload) {
+  request.post('http://repalog.logicwarehouse.net/api/warehouse/apirequest/requestData', function (error, response, payload) {
     if (!error && response.statusCode == 200) {
         console.log('sucss',response);
         // console.log('error',error) // Print the google web page.
